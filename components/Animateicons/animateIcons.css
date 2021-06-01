@@ -1,0 +1,115 @@
+
+.animateicons{
+    width: 300px;
+    height: 250px;
+    position: relative !important;
+    background: #111111;
+   /*  border: 3px solid var(--primary); */
+    display: flex !important;
+    flex-direction: column !important;
+    /* overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 0 30px var(--primary);
+    animation: pulse 2s ease infinite; */
+
+}
+
+.animateicons .row{
+    position: relative !important;
+    width: 100%;
+    display: flex !important;
+    white-space: nowrap;
+    font-size: 40px;
+    transform: rotate(-30deg);
+    padding-top: 10px;   
+    top: -180px;
+}
+
+.iconos{
+    color: rgba(0, 0, 0, 0.5)!important;
+    transition: 1s !important;
+    margin-right: 1px;
+    user-select: none !important;
+    cursor: default !important;
+}
+
+.iconos:hover{
+    transition: 0s !important;
+    color: var(--primary) !important;
+    box-shadow: 0 0 120px var(--primary) !important;
+}
+
+/* @keyframes pulse {
+    0%{
+        transform: scale(.99);
+        box-shadow: 0 0 0  var(--primary);
+    }
+    70%{
+        transform: scale(1);
+        box-shadow: 0 0 30px var(--primary);
+    }
+    100%{
+        transform: scale(.99);
+        box-shadow: 0 0 0  var(--primary);
+    }
+} */
+
+
+/* .animateicons .row div{
+    animation: animate1 80s linear infinite !important;
+    animation-delay: -80s !important;
+}
+
+.animateicons .row div:nth-child(2){
+    animation: animate2 80s linear infinite !important;
+    animation-delay: -40s !important;
+}
+
+@keyframes animate1 {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes animate2 {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-200%);
+    }
+}
+
+
+
+.animateicons .row:nth-child(even) div{
+    animation: animate3 80s linear infinite !important;
+    animation-delay: -80s !important;
+}
+
+.animateicons .row:nth-child(even) div:nth-child(2){
+    animation: animate4 80s linear infinite !important;
+    animation-delay: -40s !important;
+}
+
+@keyframes animate3 {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+
+@keyframes animate4 {
+    0%{
+        transform: translateX(-200%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+} */
+
