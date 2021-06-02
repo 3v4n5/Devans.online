@@ -15,7 +15,7 @@ const Testimonials = () => {
                 centeredSlides={true}
                 loop={true}
                 autoplay={{
-                    "delay": 4000,
+                    "delay": 5000,
                     "disableOnInteraction": false
                 }}
                 pagination={{
@@ -27,10 +27,10 @@ const Testimonials = () => {
                 {
                     testimonios.map(({ img, title, content }, i) => (
                         <SwiperSlide key={i}>
-                            <div className='align-self-center py-3'>
+                            <div className='align-self-center'>
                                 <div className="testimonio-img mb-3 mx-auto">{img}</div>
                                 <p className="text-primary font-weight-bold lead">{title}</p>
-                                <div className="testimonio mx-auto text-muted mb-5 px-2"><blockquote>{content}</blockquote></div>
+                                <div className="testimonio mx-auto text-muted mb-3"><blockquote>{content}</blockquote></div>
                             </div>
                         </SwiperSlide>
                     ))

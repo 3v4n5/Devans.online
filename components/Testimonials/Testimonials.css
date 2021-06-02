@@ -32,11 +32,11 @@
 } */
 
 .testimonio-img{
-        width: 80px;
-        height: 80px;
+        width: 90px;
+        height: 90px;
         border: 3px solid var(--primary);
         border-radius: 50%;
         background: #ffffff;
         box-shadow: 0 0 20px var(--primary) !important;
-        z-index: 999;
+        overflow: hidden;
 }

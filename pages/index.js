@@ -99,10 +99,10 @@ const Index = () => {
             <section className="testimonials py-5 d-flex">
                 <div className="container align-self-center">
                     {/*  <h1 className='titulo'>Tecnologias</h1> */}
-                    <div className="py-3 container shadow">
+                    <h2 className="text-center mb-3">Testimonios</h2>
+                    <div className="container shadow">
                         <div className='align-self-center'>
-                            <h2 className="text-center mb-3">Testimonios</h2>
-                                <Testimonials />
+                            <Testimonials />
                         </div>
                     </div>
                 </div>
@@ -171,7 +171,7 @@ const Index = () => {
                             <form>
                                 <div className="row">
                                     <div className="col-12 col-md-3 my-3">
-                                        <input type="text" className="form-control shadow" placeholder="Nombre"  />
+                                        <input type="text" className="form-control shadow" placeholder="Nombre" />
                                     </div>
                                     <div className="col-12 col-md-3 my-3">
                                         <input type="email" className="form-control shadow" placeholder="Email" />
@@ -188,8 +188,8 @@ const Index = () => {
                     </div>
                 </div>
             </section>
-        
-            {/* Seccion Final  */}                
+
+            {/* Seccion Final  */}
             <section className='final d-flex'>
                 <div className="container align-self-center">
                     <div className="row d-flex">
@@ -198,7 +198,7 @@ const Index = () => {
                         </div>
                     </div>
                 </div>
-            </section>                
+            </section>
         </Layout>
     )
 }
